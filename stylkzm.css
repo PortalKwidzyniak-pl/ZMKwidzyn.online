@@ -87,5 +87,6 @@ table, th, tr, td{
     border: #000000 2px dotted;
     text-align: center;
     font-weight: lighter;
+    table-layout: auto;
     text-shadow: rgba(112, 112, 112, 0.5) 5px 5px 10px;
 }
