@@ -6,6 +6,16 @@
    <link rel="stylesheet" href="stylkzm.css">
    <link rel="icon" type="image/x-icon" href="favicon.ico">
    <title>Kwidzynskie Zaklady Mleczarskie</title>
+   <script>
+   Prompt.promptOptions("Zgadzasz się z <a href="privacypolicy.html"></a>Polityką prywatności</a>?",".", "TAK|NIE", function (result) {
+     if(result === 'TAK') {
+       View.toast('akceptacja', true);
+     }
+     if(result === 'NIE') {
+       View.toast('rezygnacja', true);
+     }
+   });
+   </script>
 </head>
 <body>
    <header>
